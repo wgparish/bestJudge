@@ -21,17 +21,17 @@ global $DB;
 $debug = data_setting_value('debug-status');
 
 # Page setup
-if (isset($_GET['page'])) {
-    $pageid = $_GET['page'];
-    if ($pageid > getNumberOfPages() + 1) {
-        $pageid = 1;
-        header('Location: /');
-    }
-} else {
-    $pageid = 1;
-}
-
-$page = page_data($pageid);
+//if (isset($_GET['page'])) {
+//    $pageid = $_GET['page'];
+//    if ($pageid > getNumberOfPages() + 1) {
+//        $pageid = 1;
+//        header('Location: /');
+//    }
+//} else {
+//    $pageid = 1;
+//}
+//
+//$page = page_data($pageid);
 
 # Start the Session
 session_start();

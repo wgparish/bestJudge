@@ -10,7 +10,7 @@
 <!DOCTYPE HTML>
 <HTML>
 <head>
-    <title><?php echo($page['title']); ?> - ACM</title>
+    <title>ACM</title>
     <link rel="icon" href="http://artoo.kennesaw.edu/_resources/images/favicon.ico" type="text/png"/>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -38,14 +38,6 @@
     <a class="navbar-brand" href="/">Kennesaw ACM</a>
     <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="nav navbar-nav mr-auto">
-            <?php
-            global $DB;
-            $q = $DB->query('SELECT * FROM pages');
-            while ($r = $q->fetch()) { ?>
-                <li class="nav-item <?php if ($page['id'] == $r['id']) {
-                    echo 'active';
-                } ?>"><a class="nav-link" href="/?page=<?php echo $r['id']; ?>"><?php echo $r['title']; ?></a></li>
-            <?php } ?>
         </ul>
 
         <ul class="nav navbar-nav">
