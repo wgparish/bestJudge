@@ -1,0 +1,39 @@
+
+#select_page {
+    max-width: 20rem;
+    margin-bottom: 1rem;
+}
+
+#page_id {
+    max-width: 10rem;
+    margin-bottom: 1rem;
+}
+
+#page_user {
+    max-width: 10rem;
+    margin-bottom: 1rem;
+}
+
+#page_parent {
+    max-width: 10rem;
+    margin-bottom: 1rem;
+}
+
+#page_title {
+    max-width: 20rem;
+    margin-bottom: 1rem;
+}
+
+#page_header {
+    max-width: 40rem;
+    margin-bottom: 1rem;
+}
+
+#page_image {
+    max-width: 58rem;
+    margin-bottom: 1rem;
+}
+
+#page_body {
+    margin-bottom: 1rem;
+}

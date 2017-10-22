@@ -1,0 +1,347 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+    padding-bottom: 40px;
+    color: #5a5a5a;
+}
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 20;
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper > .container {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.navbar-wrapper .navbar {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.navbar-wrapper .navbar .container {
+    width: auto;
+}
+
+/* Base Header
+-------------------------------------------------- */
+.baseHeader {
+    height: 18rem;
+    margin-top: 10%;
+    margin-bottom: 60px;
+    background-color: #777;
+}
+
+#banner {
+    width: 100%;
+    position: relative;
+    margin-bottom: 1.875rem;
+}
+
+#banner .banner_text {
+    background: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    right: 10%;
+    bottom: 8%;
+    max-width: 80%;
+    padding: .25rem .25rem 1rem;
+}
+
+#banner .banner_text h1 {
+    color: #fff;
+    font-size: .375rem;
+    margin: .125rem 0 0;
+}
+
+#banner .banner_text h2 {
+    color: #febc11;
+    font-size: .800rem;
+    font-family: Nunito, Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    margin: 0;
+}
+
+#banner .banner_text.left {
+    left: 10%;
+    right: auto;
+}
+
+#banner .banner_text.top {
+    top: 8%;
+    bottom: auto;
+}
+
+#banner .page_title {
+    position: absolute;
+    padding-left: 10%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    bottom: 0;
+    z-index: 1;
+    color: #fff;
+    font-size: 3rem;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    margin: 0;
+}
+
+#banner.no_img h1 {
+    padding-top: 1.875rem;
+    background: none;
+    color: #000;
+    position: relative;
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+#banner img {
+    height: 18rem;
+    width: 100%;
+}
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+    /* Navbar positioning foo */
+    .navbar-wrapper {
+        margin-top: 20px;
+    }
+
+    .navbar-wrapper .container {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .navbar-wrapper .navbar {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    /* The navbar becomes detached from the top, so we round the corners */
+    .navbar-wrapper .navbar {
+        border-radius: 4px;
+    }
+
+    .featurette-heading {
+        font-size: 50px;
+    }
+
+
+    .baseHeader {
+        height: 35rem;
+        margin-top: 1%;
+        margin-bottom: 60px;
+        background-color: #777;
+    }
+
+    #banner {
+        width: 100%;
+        position: relative;
+        margin-bottom: 1.875rem;
+    }
+
+    #banner .banner_text {
+        background: rgba(0, 0, 0, 0.8);
+        position: absolute;
+        right: 10%;
+        bottom: 8%;
+        max-width: 70%;
+        padding: 1.125rem 1.125rem 2rem;
+    }
+
+    #banner .banner_text h1 {
+        color: #fff;
+        font-size: 1.375rem;
+        margin: .125rem 0 0;
+    }
+
+    #banner .banner_text h2 {
+        color: #febc11;
+        font-size: .9375rem;
+        font-family: Nunito, Arial, Helvetica, sans-serif;
+        font-weight: 300;
+        margin: 0;
+    }
+
+    #banner .banner_text.left {
+        left: 10%;
+        right: auto;
+    }
+
+    #banner .banner_text.top {
+        top: 8%;
+        bottom: auto;
+    }
+
+    #banner .page_title {
+        position: absolute;
+        padding-left: 10%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        bottom: 0;
+        z-index: 1;
+        color: #fff;
+        font-size: 7rem;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        margin: 0;
+    }
+
+    #banner.no_img h1 {
+        padding-top: 1.875rem;
+        background: none;
+        color: #000;
+        position: relative;
+        font-size: 2.5rem;
+        margin: 0;
+    }
+
+    #banner img {
+        height: 35rem;
+        width: 100%;
+    }
+
+
+}
+
+@media (min-width: 992px) {
+    .featurette-heading {
+        margin-top: 120px;
+    }
+}
+
+/* LOGIN CSS
+-------------------------------------------------- */
+
+.form-signin {
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+    margin-bottom: 10px;
+}
+
+.form-signin .checkbox {
+    font-weight: normal;
+}
+
+.form-signin .form-control {
+    position: relative;
+    height: auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.form-signin .form-control:focus {
+    z-index: 2;
+}
+
+.form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+/* EXPANDABLE SIDEBAR
+-------------------------------------------------- */
+
+.sidebar .sidebar-nav.navbar-collapse {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.sidebar .sidebar-search {
+    padding: 15px;
+}
+
+.sidebar ul li {
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.sidebar ul li a.active {
+    background-color: #eeeeee;
+}
+
+.sidebar .arrow {
+    float: right;
+}
+
+.sidebar .fa.arrow:before {
+    content: "\f104";
+}
+
+.sidebar .active > a > .fa.arrow:before {
+    content: "\f107";
+}
+
+.sidebar .nav-second-level li,
+.sidebar .nav-third-level li {
+    border-bottom: none !important;
+}
+
+.sidebar .nav-second-level li a {
+    padding-left: 37px;
+}
+
+.sidebar .nav-third-level li a {
+    padding-left: 52px;
+}
+
+/*  FOOTER CSS
+-------------------------------------------------- */
+.footer {
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+/*  DEBUG CSS
+-------------------------------------------------- */
+#console-debug {
+    position: fixed;
+    z-index: 1000;
+
+    top: 55px;
+    left: 0px;
+    width: 40%;
+    height: 70%;
+    background-color: silver;
+    padding: 1rem;
+    border-radius: 10px;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    box-shadow: 2px 2px 5px #CCCCCC;
+}
+
+#console-debug pre {
+    height: 95%;
+}
+
+/*
+-------------------------------------------------- */
+
+/*
+-------------------------------------------------- */

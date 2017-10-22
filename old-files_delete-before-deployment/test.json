@@ -1,0 +1,68 @@
+{
+  "Jumbotron": {
+
+    "item_1": {
+      "image": "/images/home_page_images/AAEAAQAAAAAAAAkDAAAAJGVmMWZiZmFkLTMwMDQtNDUzMy1iMmRjLTY2ZjE0ZTI0ZjQxOQ.jpg",
+      "title": "Kennesaw Association for Computing Machinery",
+      "content": "Where we continue to develop the future...",
+      "link": "#"
+    },
+
+    "item_2": {
+      "image": "/images/home_page_images/cognitive-computing-1056x653.jpg",
+      "title": "About our organization",
+      "content": "Come see who we are and what we do...",
+      "link": "#"
+    },
+
+    "item_3": {
+      "image": "/images/home_page_images/5%20Reasons%20Computing%20-%20Hero.jpg",
+      "title": "Join Kennesaw ACM",
+      "content": "Register to become a member and join in on the fun...",
+      "link": "#"
+    }
+  },
+
+  "bubble_items": {
+    "item_1": {
+      "image": "/images/home_page_images/Cloud-Computing-cap.jpg",
+      "title": "Heading",
+      "content": "Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.",
+      "link": "#"
+    },
+
+    "item_2": {
+      "image": "/images/home_page_images/BRAIN-CPU.jpg",
+      "title": "Heading",
+      "content": "Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.",
+      "link": "#"
+    },
+
+    "item_3": {
+      "image": "/images/home_page_images/cognitive-computing-1056x653.jpg",
+      "title": "Heading",
+      "content": "Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.",
+      "link": "#"
+    }
+  },
+
+  "features": {
+    "item_1": {
+      "image": "/images/home_page_images/ACM.png",
+      "title": "First featurette heading.",
+      "content": "Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo."
+    },
+
+    "item_2": {
+      "image": "/images/home_page_images/solution-network-infrastructure-tn-500x500_1.jpg",
+      "title": "First featurette heading.",
+      "content": "Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo."
+    },
+
+    "item_3": {
+      "image": "/images/home_page_images/platform-cloud-computing-500x500.jpg",
+      "title": "First featurette heading.",
+      "content": "Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo."
+    }
+  }
+}

@@ -1,0 +1,6 @@
+# Redirect the all users to maintenance.html
+
+RewriteEngine On
+RewriteCond %{REMOTE_ADDR} !^10\.100\.67\.40
+RewriteCond %{REQUEST_URI} !^/maintenance.php$ [NC]
+RewriteRule ^(.*)$ /maintenance.php [R=302,L]

@@ -1,0 +1,76 @@
+.form-horizontal {
+    padding-top: 20px
+}
+
+.zero-pad {
+    padding: 0
+}
+
+.zero-margin {
+    margin: 0
+}
+
+.btn-bordered-warning {
+    color: #F0AD4E;
+    background: transparent;
+    border: 3px solid #F0AD4E;
+    border-radius: 0
+}
+
+.btn-bordered-warning:hover {
+    color: #FFFFFF;
+    border: 3px solid #FFFFFF
+}
+
+.btn-lg {
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.33
+}
+
+.btn-square-to-round:hover {
+    border-radius: 50px
+}
+
+.btn, img {
+    transition: all 0.8s;
+    -o-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+}
+
+.resetBtn {
+    position: absolute;
+    top: 10px;
+    right: 10px
+}
+
+.kbd {
+    border-radius: 6px 6px 0 0;
+}
+
+.img {
+    padding: 8px;
+}
+
+.cssCode {
+    border-radius: 0 6px 6px 6px
+}
+
+.div-header {
+    margin: 15px 15px 0px 15px;
+    border-bottom: 0px;
+    border-top: 3px solid #F0AD4E;
+    border-right: 3px solid #5CB85C;
+    border-bottom: 0px;
+    border-left: 3px solid #D9534F
+}
+
+.div-content {
+    margin: 0px 15px 15px 15px;
+    background: #F7F7F9;
+    border-top: 3px solid #428BCA;
+    border-right: 3px solid #D9534F;
+    border-bottom: 3px solid #5CB85C;
+    border-left: 3px solid #F0AD4E
+}

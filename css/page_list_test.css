@@ -1,0 +1,48 @@
+.form-control {
+    max-width: 20rem;
+
+}
+
+.select {
+    max-width: 20rem;
+    height: 3rem;
+    background-color: white;
+}
+
+.btn-default {
+    background-color: white;
+    border: grey;
+    border-style: solid;
+}
+
+.btn-default:hover {
+    background-color: lightgrey;
+}
+
+.btn-default:focus {
+    background-color: lightgrey;
+}
+
+.select button {
+    width: 100%;
+    text-align: left;
+}
+
+.select .caret {
+    position: absolute;
+    align-content: right;
+    margin-top: 10px;
+}
+
+.select:last-child > .btn {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.selected {
+    padding-right: 10px;
+}
+
+.option {
+    width: 100%;
+}

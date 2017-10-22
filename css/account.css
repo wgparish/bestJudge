@@ -1,0 +1,14 @@
+
+.change-pass{
+    margin-top: 20%;
+}
+
+
+@media (min-width: 768px) {
+
+    .change-pass{
+        margin-top: 8%;
+    }
+
+
+}
