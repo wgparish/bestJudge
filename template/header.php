@@ -10,7 +10,7 @@
 <!DOCTYPE HTML>
 <HTML>
 <head>
-    <title>ACM</title>
+    <title>GA BEST Robotics</title>
     <link rel="icon" href="http://artoo.kennesaw.edu/_resources/images/favicon.ico" type="text/png"/>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -35,9 +35,15 @@
             aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
-    <a class="navbar-brand" href="/">Kennesaw ACM</a>
+    <a class="navbar-brand" href="/">GA BEST Robotics</a>
     <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="nav navbar-nav mr-auto">
+            <li class="nav-item <?php if ($pageDetails == "TEAMS"){echo 'active';} ?>">
+                <a class="nav-link" href="/team_list.php">Team List</a>
+            </li>
+            <li class="nav-item <?php if ($pageDetails == "JUDGE"){echo 'active';} ?>">
+                <a class="nav-link" href="/judge.php">Judge</a>
+            </li>
         </ul>
 
         <ul class="nav navbar-nav">
