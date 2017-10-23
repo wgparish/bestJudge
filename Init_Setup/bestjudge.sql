@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Oct 22, 2017 at 11:30 PM
+-- Generation Time: Oct 23, 2017 at 03:29 PM
 -- Server version: 10.1.26-MariaDB
 -- PHP Version: 7.1.9
 
@@ -51,17 +51,18 @@ CREATE TABLE `rubric_descriptor` (
   `rubric_identifier` int(55) NOT NULL,
   `static_point_value` double NOT NULL,
   `descriptor` text NOT NULL,
-  `score_sheet` enum('Notebook','Marketing','Exhibit_and_interview','Spirit_and_sportsmanship','Robot') NOT NULL,
-  `descriptor_title` text NOT NULL
+  `score_sheet` text NOT NULL,
+  `descriptor_title` text NOT NULL,
+  `sub_section_type` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `rubric_descriptor`
 --
 
-INSERT INTO `rubric_descriptor` (`id`, `rubric_identifier`, `static_point_value`, `descriptor`, `score_sheet`, `descriptor_title`) VALUES
-  (1, 1, 10, '8-10\r\nIn-depth discussion of how this year’s game theme relates to industry in this region.\r\n4-7\r\nGeneral discussion of how this year’s game theme relates to industry in this region.\r\n1-3\r\nGeneral discussion of this year’s game theme, but no ties to the region.\r\n0\r\nNo discussion of this year’s game theme.', 'Notebook', 'Correlation between the game and how the science/technology is being used at a company/industry/research lab in the team’s state or region'),
-  (2, 2, 10, '8-10\r\nIn-depth discussion of history and people related to this year’s game theme.\r\n4-7\r\nGeneral discussion of history and people related to this year’s game theme.\r\n1-3\r\nSome mention of history or people.\r\n0\r\nNo discussion of this year’s game theme.', '', 'Any related information of the game theme such as history, famous inventor(s), major milestones, etc.');
+INSERT INTO `rubric_descriptor` (`id`, `rubric_identifier`, `static_point_value`, `descriptor`, `score_sheet`, `descriptor_title`, `sub_section_type`) VALUES
+  (1, 1, 10, '8-10\r\nIn-depth discussion of how this year’s game theme relates to industry in this region.\r\n4-7\r\nGeneral discussion of how this year’s game theme relates to industry in this region.\r\n1-3\r\nGeneral discussion of this year’s game theme, but no ties to the region.\r\n0\r\nNo discussion of this year’s game theme.', 'Notebook', 'Correlation between the game and how the science/technology is being used at a company/industry/research lab in the team’s state or region', 'Research Paper'),
+  (2, 2, 10, '8-10\r\nIn-depth discussion of history and people related to this year’s game theme.\r\n4-7\r\nGeneral discussion of history and people related to this year’s game theme.\r\n1-3\r\nSome mention of history or people.\r\n0\r\nNo discussion of this year’s game theme.', 'Notebook', 'Any related information of the game theme such as history, famous inventor(s), major milestones, etc.', 'Research Paper');
 
 -- --------------------------------------------------------
 
