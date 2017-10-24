@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Oct 23, 2017 at 03:29 PM
+-- Generation Time: Oct 24, 2017 at 03:53 AM
 -- Server version: 10.1.26-MariaDB
 -- PHP Version: 7.1.9
 
@@ -62,7 +62,11 @@ CREATE TABLE `rubric_descriptor` (
 
 INSERT INTO `rubric_descriptor` (`id`, `rubric_identifier`, `static_point_value`, `descriptor`, `score_sheet`, `descriptor_title`, `sub_section_type`) VALUES
   (1, 1, 10, '8-10\r\nIn-depth discussion of how this year’s game theme relates to industry in this region.\r\n4-7\r\nGeneral discussion of how this year’s game theme relates to industry in this region.\r\n1-3\r\nGeneral discussion of this year’s game theme, but no ties to the region.\r\n0\r\nNo discussion of this year’s game theme.', 'Notebook', 'Correlation between the game and how the science/technology is being used at a company/industry/research lab in the team’s state or region', 'Research Paper'),
-  (2, 2, 10, '8-10\r\nIn-depth discussion of history and people related to this year’s game theme.\r\n4-7\r\nGeneral discussion of history and people related to this year’s game theme.\r\n1-3\r\nSome mention of history or people.\r\n0\r\nNo discussion of this year’s game theme.', 'Notebook', 'Any related information of the game theme such as history, famous inventor(s), major milestones, etc.', 'Research Paper');
+  (2, 2, 10, '8-10\r\nIn-depth discussion of history and people related to this year’s game theme.\r\n4-7\r\nGeneral discussion of history and people related to this year’s game theme.\r\n1-3\r\nSome mention of history or people.\r\n0\r\nNo discussion of this year’s game theme.', 'Notebook', 'Any related information of the game theme such as history, famous inventor(s), major milestones, etc.', 'Research Paper'),
+  (3, 3, 8, 'Team introductions with names and roles;\r\ncompany overview of number of employees across departments;\r\nteam demographics; brief budget overview', 'Marketing', ' ', 'Introduction to the Company and Quality of Presentation'),
+  (4, 4, 25, 'Evidence that the engineering design process was effectively used\r\n21-25 Process is explicitly identified; steps are obvious and explanation is thorough.\r\n16-20 Process is identified; steps are discernible and there is some explanation.\r\n11-15 Process is not identified; there is some discussion of a design process.\r\n6-10 Discussion of process is minimal.\r\n1-5 You can tell there was a design process of some sort.\r\n0 No discernible design process.', 'Notebook', 'Implementation of the Engineering Design Process', 'Design Process'),
+  (5, 5, 10, 'Storytelling was used and was effective', 'Marketing', '', 'Introduction to the Company and Quality of Presentation'),
+  (6, 6, 40, 'Defines the tangible benefit that makes a product or service desirable', 'Marketing', '', 'Brand Promise');
 
 -- --------------------------------------------------------
 
@@ -192,7 +196,7 @@ ALTER TABLE `modify`
 -- AUTO_INCREMENT for table `rubric_descriptor`
 --
 ALTER TABLE `rubric_descriptor`
-  MODIFY `id` int(55) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(55) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 --
 -- AUTO_INCREMENT for table `score_sheet`
