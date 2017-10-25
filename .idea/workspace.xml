@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f29fd3a-27cc-44f1-9fff-6e6af8fa498c" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/judge.php" afterPath="$PROJECT_DIR$/judge.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -58,20 +59,20 @@
         <entry file="file://$PROJECT_DIR$/judge.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="850">
-              <caret line="61" column="46" lean-forward="false" selection-start-line="61" selection-start-column="46" selection-end-line="61" selection-end-column="46" />
+              <caret line="61" column="85" lean-forward="false" selection-start-line="61" selection-start-column="85" selection-end-line="61" selection-end-column="85" />
               <folding>
-                <marker date="1508972455991" expanded="true" signature="1314:1364" ph="SELECT DISTI... rubric_descriptor" />
-                <marker date="1508972455991" expanded="true" signature="1788:1825" ph="SELECT DISTI... team" />
-                <marker date="1508972455991" expanded="true" signature="2401:2452" ph="SELECT * FRO... rubric_descriptor" />
-                <marker date="1508972455991" expanded="true" signature="2401:2453" ph="SELECT * FRO... rubric_descriptor" />
-                <marker date="1508972455991" expanded="true" signature="2401:2457" ph="SELECT * FRO... rubric_descriptor" />
-                <marker date="1508972455991" expanded="true" signature="2401:2459" ph="SELECT * FRO... rubric_descriptor" />
-                <marker date="1508972455991" expanded="true" signature="2401:2463" ph="SELECT * FRO... rubric_descriptor" />
-                <marker date="1508972455991" expanded="true" signature="2401:2485" ph="SELECT * FRO... rubric_descriptor" />
-                <marker date="1508972455991" expanded="true" signature="2401:2511" ph="SELECT * FRO... rubric_descriptor" />
-                <marker date="1508972455991" expanded="true" signature="2401:2512" ph="SELECT * FRO... rubric_descriptor" />
-                <marker date="1508972455991" expanded="true" signature="2401:2537" ph="SELECT * FRO... rubric_descriptor" />
-                <marker date="1508972455991" expanded="true" signature="2579:2595" ph="..." />
+                <marker date="1508973835227" expanded="true" signature="1314:1364" ph="SELECT DISTI... rubric_descriptor" />
+                <marker date="1508973835227" expanded="true" signature="1788:1851" ph="SELECT DISTI... team" />
+                <marker date="1508973835227" expanded="true" signature="2427:2478" ph="SELECT * FRO... rubric_descriptor" />
+                <marker date="1508973835227" expanded="true" signature="2427:2479" ph="SELECT * FRO... rubric_descriptor" />
+                <marker date="1508973835227" expanded="true" signature="2427:2483" ph="SELECT * FRO... rubric_descriptor" />
+                <marker date="1508973835227" expanded="true" signature="2427:2485" ph="SELECT * FRO... rubric_descriptor" />
+                <marker date="1508973835227" expanded="true" signature="2427:2489" ph="SELECT * FRO... rubric_descriptor" />
+                <marker date="1508973835227" expanded="true" signature="2427:2511" ph="SELECT * FRO... rubric_descriptor" />
+                <marker date="1508973835227" expanded="true" signature="2427:2537" ph="SELECT * FRO... rubric_descriptor" />
+                <marker date="1508973835227" expanded="true" signature="2427:2538" ph="SELECT * FRO... rubric_descriptor" />
+                <marker date="1508973835227" expanded="true" signature="2427:2563" ph="SELECT * FRO... rubric_descriptor" />
+                <marker date="1508973835227" expanded="true" signature="2605:2621" ph="..." />
               </folding>
             </state>
           </provider>
@@ -293,12 +294,12 @@
       <workItem from="1508707729598" duration="97000" />
       <workItem from="1508809960734" duration="692000" />
       <workItem from="1508946532588" duration="271000" />
-      <workItem from="1508959488249" duration="4756000" />
+      <workItem from="1508959488249" duration="6063000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27256000" />
+    <option name="totallyTimeSpent" value="28563000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1121" y="0" width="1142" height="1481" extended-state="0" />
@@ -427,18 +428,18 @@
         <state relative-caret-position="408">
           <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
           <folding>
-            <marker date="1508972455991" expanded="true" signature="1314:1364" ph="SELECT DISTI... rubric_descriptor" />
-            <marker date="1508972455991" expanded="true" signature="1788:1825" ph="SELECT DISTI... team" />
-            <marker date="1508972455991" expanded="true" signature="2401:2452" ph="SELECT * FRO... rubric_descriptor" />
-            <marker date="1508972455991" expanded="true" signature="2401:2453" ph="SELECT * FRO... rubric_descriptor" />
-            <marker date="1508972455991" expanded="true" signature="2401:2457" ph="SELECT * FRO... rubric_descriptor" />
-            <marker date="1508972455991" expanded="true" signature="2401:2459" ph="SELECT * FRO... rubric_descriptor" />
-            <marker date="1508972455991" expanded="true" signature="2401:2463" ph="SELECT * FRO... rubric_descriptor" />
-            <marker date="1508972455991" expanded="true" signature="2401:2485" ph="SELECT * FRO... rubric_descriptor" />
-            <marker date="1508972455991" expanded="true" signature="2401:2511" ph="SELECT * FRO... rubric_descriptor" />
-            <marker date="1508972455991" expanded="true" signature="2401:2512" ph="SELECT * FRO... rubric_descriptor" />
-            <marker date="1508972455991" expanded="true" signature="2401:2537" ph="SELECT * FRO... rubric_descriptor" />
-            <marker date="1508972455991" expanded="true" signature="2579:2595" ph="..." />
+            <marker date="1508973835227" expanded="true" signature="1314:1364" ph="SELECT DISTI... rubric_descriptor" />
+            <marker date="1508973835227" expanded="true" signature="1788:1851" ph="SELECT DISTI... team" />
+            <marker date="1508973835227" expanded="true" signature="2427:2478" ph="SELECT * FRO... rubric_descriptor" />
+            <marker date="1508973835227" expanded="true" signature="2427:2479" ph="SELECT * FRO... rubric_descriptor" />
+            <marker date="1508973835227" expanded="true" signature="2427:2483" ph="SELECT * FRO... rubric_descriptor" />
+            <marker date="1508973835227" expanded="true" signature="2427:2485" ph="SELECT * FRO... rubric_descriptor" />
+            <marker date="1508973835227" expanded="true" signature="2427:2489" ph="SELECT * FRO... rubric_descriptor" />
+            <marker date="1508973835227" expanded="true" signature="2427:2511" ph="SELECT * FRO... rubric_descriptor" />
+            <marker date="1508973835227" expanded="true" signature="2427:2537" ph="SELECT * FRO... rubric_descriptor" />
+            <marker date="1508973835227" expanded="true" signature="2427:2538" ph="SELECT * FRO... rubric_descriptor" />
+            <marker date="1508973835227" expanded="true" signature="2427:2563" ph="SELECT * FRO... rubric_descriptor" />
+            <marker date="1508973835227" expanded="true" signature="2605:2621" ph="..." />
           </folding>
         </state>
       </provider>
@@ -790,20 +791,20 @@
     <entry file="file://$PROJECT_DIR$/judge.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="850">
-          <caret line="61" column="46" lean-forward="false" selection-start-line="61" selection-start-column="46" selection-end-line="61" selection-end-column="46" />
+          <caret line="61" column="85" lean-forward="false" selection-start-line="61" selection-start-column="85" selection-end-line="61" selection-end-column="85" />
           <folding>
-            <marker date="1508972455991" expanded="true" signature="1314:1364" ph="SELECT DISTI... rubric_descriptor" />
-            <marker date="1508972455991" expanded="true" signature="1788:1825" ph="SELECT DISTI... team" />
-            <marker date="1508972455991" expanded="true" signature="2401:2452" ph="SELECT * FRO... rubric_descriptor" />
-            <marker date="1508972455991" expanded="true" signature="2401:2453" ph="SELECT * FRO... rubric_descriptor" />
-            <marker date="1508972455991" expanded="true" signature="2401:2457" ph="SELECT * FRO... rubric_descriptor" />
-            <marker date="1508972455991" expanded="true" signature="2401:2459" ph="SELECT * FRO... rubric_descriptor" />
-            <marker date="1508972455991" expanded="true" signature="2401:2463" ph="SELECT * FRO... rubric_descriptor" />
-            <marker date="1508972455991" expanded="true" signature="2401:2485" ph="SELECT * FRO... rubric_descriptor" />
-            <marker date="1508972455991" expanded="true" signature="2401:2511" ph="SELECT * FRO... rubric_descriptor" />
-            <marker date="1508972455991" expanded="true" signature="2401:2512" ph="SELECT * FRO... rubric_descriptor" />
-            <marker date="1508972455991" expanded="true" signature="2401:2537" ph="SELECT * FRO... rubric_descriptor" />
-            <marker date="1508972455991" expanded="true" signature="2579:2595" ph="..." />
+            <marker date="1508973835227" expanded="true" signature="1314:1364" ph="SELECT DISTI... rubric_descriptor" />
+            <marker date="1508973835227" expanded="true" signature="1788:1851" ph="SELECT DISTI... team" />
+            <marker date="1508973835227" expanded="true" signature="2427:2478" ph="SELECT * FRO... rubric_descriptor" />
+            <marker date="1508973835227" expanded="true" signature="2427:2479" ph="SELECT * FRO... rubric_descriptor" />
+            <marker date="1508973835227" expanded="true" signature="2427:2483" ph="SELECT * FRO... rubric_descriptor" />
+            <marker date="1508973835227" expanded="true" signature="2427:2485" ph="SELECT * FRO... rubric_descriptor" />
+            <marker date="1508973835227" expanded="true" signature="2427:2489" ph="SELECT * FRO... rubric_descriptor" />
+            <marker date="1508973835227" expanded="true" signature="2427:2511" ph="SELECT * FRO... rubric_descriptor" />
+            <marker date="1508973835227" expanded="true" signature="2427:2537" ph="SELECT * FRO... rubric_descriptor" />
+            <marker date="1508973835227" expanded="true" signature="2427:2538" ph="SELECT * FRO... rubric_descriptor" />
+            <marker date="1508973835227" expanded="true" signature="2427:2563" ph="SELECT * FRO... rubric_descriptor" />
+            <marker date="1508973835227" expanded="true" signature="2605:2621" ph="..." />
           </folding>
         </state>
       </provider>

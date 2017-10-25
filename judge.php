@@ -59,7 +59,7 @@ $team_num = $_GET['teamNum'];
             <option>Null</option>
             <?php
             global $DB;
-            $query = "SELECT DISTINCT team_number From team";
+            $query = "SELECT DISTINCT team_number From team ORDER BY team_number DESC";
             $q = $DB->query($query);
             while($r = $q->fetch()){
                 ?>
