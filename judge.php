@@ -21,7 +21,7 @@ include('libs/login.php');
 include(D_TEMPLATE . '/header.php');
 
 $score_sheet_type = $_GET['type'];
-$team_num = $_GET['num'];
+$team_num = $_GET['teamNum'];
 //$score_sheet_type = $_POST['Score_Sheet'];
 //$team_num = $_POST['Team_number'];
 ?>
@@ -44,13 +44,29 @@ $team_num = $_GET['num'];
     <form class="form-control" method="post" action="judge.php" id="typeAndTeamNumForm">
         <select name="Score_Sheet" size="1" id="type">
             <option>Null</option>
-            <option value="Notebook">Notebook</option>
-            <option value="Marketing">Marketing</option>
+            <?php
+            global $DB;
+            $query = "SELECT DISTINCT score_sheet From rubric_descriptor";
+            $q = $DB->query($query);
+            while($r = $q->fetch()){
+                ?>
+                <option value="<?php echo $r['score_sheet']; ?>"><?php echo $r['score_sheet']; ?></option>
+            <?php
+            }
+            ?>
         </select>
         <select name="Team_number" size="1" id="teamNum">
             <option>Null</option>
-            <option value="118">118</option>
-            <option value="119">119</option>
+            <?php
+            global $DB;
+            $query = "SELECT DISTINCT team_number From team";
+            $q = $DB->query($query);
+            while($r = $q->fetch()){
+                ?>
+                <option value="<?php echo $r['team_number']; ?>"><?php echo $r['team_number']; ?></option>
+                <?php
+            }
+            ?>
         </select>
         <button type="submit" onclick="changeURL()" class="btn btn-success">submit</button>
     </form>
@@ -62,7 +78,6 @@ $team_num = $_GET['num'];
 <?php
 global $DB;
 $sub_section = '';
-$type_variable = "Notebook";
 $query = "SELECT * FROM rubric_descriptor WHERE score_sheet = " . '"' . $score_sheet_type . '" ORDER BY sub_section_Type';
 $q = $DB->query($query);
 while($r = $q->fetch()){

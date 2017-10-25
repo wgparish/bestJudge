@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f29fd3a-27cc-44f1-9fff-6e6af8fa498c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/judge.php" afterPath="$PROJECT_DIR$/judge.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,12 +19,7 @@
     <option name="SHOW_TABLE_DETAILS" value="true" />
     <option name="SHOW_EMPTY_GROUPS" value="false" />
     <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <expand>
-      <path>
-        <item name="" type="eadb38e5:DatabaseStructure$Root" />
-        <item name="bestjudge@localhost" type="e3449647:DbNodeDescriptor" />
-      </path>
-    </expand>
+    <expand />
     <select />
   </component>
   <component name="FileEditorManager">
@@ -38,18 +30,6 @@
             <state relative-caret-position="561">
               <caret line="38" column="10" lean-forward="false" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="10" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/template/header.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="697">
-              <caret line="46" column="13" lean-forward="false" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
-              <folding>
-                <element signature="e#6#92#0#PHP" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -74,42 +54,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="resources_page.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/template/resources_page.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="join_page.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/template/join_page.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="16" column="6" lean-forward="false" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="judge.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="judge.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/judge.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="37" column="57" lean-forward="true" selection-start-line="37" selection-start-column="57" selection-end-line="37" selection-end-column="57" />
+            <state relative-caret-position="850">
+              <caret line="61" column="46" lean-forward="false" selection-start-line="61" selection-start-column="46" selection-end-line="61" selection-end-column="46" />
               <folding>
-                <marker date="1508971014066" expanded="true" signature="1909:1960" ph="SELECT * FRO... rubric_descriptor" />
-                <marker date="1508971014066" expanded="true" signature="1909:1961" ph="SELECT * FRO... rubric_descriptor" />
-                <marker date="1508971014066" expanded="true" signature="1909:1965" ph="SELECT * FRO... rubric_descriptor" />
-                <marker date="1508971014066" expanded="true" signature="1909:1967" ph="SELECT * FRO... rubric_descriptor" />
-                <marker date="1508971014066" expanded="true" signature="1909:1971" ph="SELECT * FRO... rubric_descriptor" />
-                <marker date="1508971014066" expanded="true" signature="1909:1993" ph="SELECT * FRO... rubric_descriptor" />
-                <marker date="1508971014066" expanded="true" signature="1909:2019" ph="SELECT * FRO... rubric_descriptor" />
-                <marker date="1508971014066" expanded="true" signature="1909:2020" ph="SELECT * FRO... rubric_descriptor" />
-                <marker date="1508971014066" expanded="true" signature="1909:2045" ph="SELECT * FRO... rubric_descriptor" />
-                <marker date="1508971014066" expanded="true" signature="2087:2103" ph="..." />
+                <marker date="1508972455991" expanded="true" signature="1314:1364" ph="SELECT DISTI... rubric_descriptor" />
+                <marker date="1508972455991" expanded="true" signature="1788:1825" ph="SELECT DISTI... team" />
+                <marker date="1508972455991" expanded="true" signature="2401:2452" ph="SELECT * FRO... rubric_descriptor" />
+                <marker date="1508972455991" expanded="true" signature="2401:2453" ph="SELECT * FRO... rubric_descriptor" />
+                <marker date="1508972455991" expanded="true" signature="2401:2457" ph="SELECT * FRO... rubric_descriptor" />
+                <marker date="1508972455991" expanded="true" signature="2401:2459" ph="SELECT * FRO... rubric_descriptor" />
+                <marker date="1508972455991" expanded="true" signature="2401:2463" ph="SELECT * FRO... rubric_descriptor" />
+                <marker date="1508972455991" expanded="true" signature="2401:2485" ph="SELECT * FRO... rubric_descriptor" />
+                <marker date="1508972455991" expanded="true" signature="2401:2511" ph="SELECT * FRO... rubric_descriptor" />
+                <marker date="1508972455991" expanded="true" signature="2401:2512" ph="SELECT * FRO... rubric_descriptor" />
+                <marker date="1508972455991" expanded="true" signature="2401:2537" ph="SELECT * FRO... rubric_descriptor" />
+                <marker date="1508972455991" expanded="true" signature="2579:2595" ph="..." />
               </folding>
             </state>
           </provider>
@@ -125,11 +87,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="common_functions.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="common_functions.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/libs/common_functions.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
-              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding>
                 <marker date="1507584325000" expanded="true" signature="746:854" ph="..." />
                 <marker date="1507584325000" expanded="true" signature="936:1044" ph="..." />
@@ -137,6 +99,58 @@
                 <marker date="1507584325000" expanded="true" signature="2906:2958" ph="SELECT * FRO... users" />
                 <marker date="1507584325000" expanded="true" signature="3256:3295" ph="SELECT * FRO... settings" />
                 <marker date="1507584325000" expanded="true" signature="3418:3438" ph="SELECT id FR... pages" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login_modal.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/libs/js/login_modal.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-689">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bug_submit.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/libs/js/bug_submit.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="calendar.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/libs/js/calendar.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-74505">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <marker date="1507584325000" expanded="true" signature="7430:7447" ph="..." />
+                <marker date="1507584325000" expanded="true" signature="10011:10028" ph="..." />
+                <marker date="1507584325000" expanded="true" signature="21011:21021" ph="..." />
+                <marker date="1507584325000" expanded="true" signature="67911:67951" ph="..." />
+                <marker date="1507584325000" expanded="true" signature="69409:69419" ph="..." />
+                <marker date="1507584325000" expanded="true" signature="72653:72670" ph="..." />
+                <marker date="1507584325000" expanded="true" signature="87797:87842" ph="..." />
+                <marker date="1507584325000" expanded="true" signature="88027:88067" ph="..." />
+                <marker date="1507584325000" expanded="true" signature="88175:88185" ph="..." />
+                <marker date="1507584325000" expanded="true" signature="88453:88470" ph="..." />
+                <marker date="1507584325000" expanded="true" signature="89212:89274" ph="..." />
+                <marker date="1507584325000" expanded="true" signature="89382:89426" ph="..." />
+                <marker date="1507584325000" expanded="true" signature="89571:89611" ph="..." />
+                <marker date="1507584325000" expanded="true" signature="89735:89745" ph="..." />
+                <marker date="1507584325000" expanded="true" signature="90420:90437" ph="..." />
+                <marker date="1507584325000" expanded="true" signature="91929:91939" ph="..." />
+                <marker date="1507584325000" expanded="true" signature="95029:95046" ph="..." />
+                <marker date="1507584325000" expanded="true" signature="201700:201727" ph="..." />
               </folding>
             </state>
           </provider>
@@ -217,11 +231,6 @@
               <item name="bestJudge" type="b2602c69:ProjectViewProjectNode" />
               <item name="bestJudge" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
-            <path>
-              <item name="bestJudge" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bestJudge" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="libs" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -284,22 +293,22 @@
       <workItem from="1508707729598" duration="97000" />
       <workItem from="1508809960734" duration="692000" />
       <workItem from="1508946532588" duration="271000" />
-      <workItem from="1508959488249" duration="3479000" />
+      <workItem from="1508959488249" duration="4756000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25979000" />
+    <option name="totallyTimeSpent" value="27256000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1121" y="0" width="1142" height="1481" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3659889" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3516874" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33262712" sideWeight="0.15240084" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286385" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32845744" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.330855" sideWeight="0.84759915" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -349,34 +358,6 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="38" column="10" lean-forward="false" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/d2f297be-731b-43b4-a18e-c87855ff8392/console.sql" />
-    <entry file="file://$PROJECT_DIR$/judge.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
-          <folding>
-            <marker date="1508971014066" expanded="true" signature="1909:1960" ph="SELECT * FRO... rubric_descriptor" />
-            <marker date="1508971014066" expanded="true" signature="1909:1961" ph="SELECT * FRO... rubric_descriptor" />
-            <marker date="1508971014066" expanded="true" signature="1909:1965" ph="SELECT * FRO... rubric_descriptor" />
-            <marker date="1508971014066" expanded="true" signature="1909:1967" ph="SELECT * FRO... rubric_descriptor" />
-            <marker date="1508971014066" expanded="true" signature="1909:1971" ph="SELECT * FRO... rubric_descriptor" />
-            <marker date="1508971014066" expanded="true" signature="1909:1993" ph="SELECT * FRO... rubric_descriptor" />
-            <marker date="1508971014066" expanded="true" signature="1909:2019" ph="SELECT * FRO... rubric_descriptor" />
-            <marker date="1508971014066" expanded="true" signature="1909:2020" ph="SELECT * FRO... rubric_descriptor" />
-            <marker date="1508971014066" expanded="true" signature="1909:2045" ph="SELECT * FRO... rubric_descriptor" />
-            <marker date="1508971014066" expanded="true" signature="2087:2103" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
           <caret line="38" column="10" lean-forward="false" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="10" />
           <folding />
@@ -404,7 +385,7 @@
         <state relative-caret-position="697">
           <caret line="46" column="13" lean-forward="false" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
           <folding>
-            <element signature="e#6#92#0#PHP" expanded="true" />
+            <element signature="e#6#92#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -446,16 +427,18 @@
         <state relative-caret-position="408">
           <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
           <folding>
-            <marker date="1508971014066" expanded="true" signature="1909:1960" ph="SELECT * FRO... rubric_descriptor" />
-            <marker date="1508971014066" expanded="true" signature="1909:1961" ph="SELECT * FRO... rubric_descriptor" />
-            <marker date="1508971014066" expanded="true" signature="1909:1965" ph="SELECT * FRO... rubric_descriptor" />
-            <marker date="1508971014066" expanded="true" signature="1909:1967" ph="SELECT * FRO... rubric_descriptor" />
-            <marker date="1508971014066" expanded="true" signature="1909:1971" ph="SELECT * FRO... rubric_descriptor" />
-            <marker date="1508971014066" expanded="true" signature="1909:1993" ph="SELECT * FRO... rubric_descriptor" />
-            <marker date="1508971014066" expanded="true" signature="1909:2019" ph="SELECT * FRO... rubric_descriptor" />
-            <marker date="1508971014066" expanded="true" signature="1909:2020" ph="SELECT * FRO... rubric_descriptor" />
-            <marker date="1508971014066" expanded="true" signature="1909:2045" ph="SELECT * FRO... rubric_descriptor" />
-            <marker date="1508971014066" expanded="true" signature="2087:2103" ph="..." />
+            <marker date="1508972455991" expanded="true" signature="1314:1364" ph="SELECT DISTI... rubric_descriptor" />
+            <marker date="1508972455991" expanded="true" signature="1788:1825" ph="SELECT DISTI... team" />
+            <marker date="1508972455991" expanded="true" signature="2401:2452" ph="SELECT * FRO... rubric_descriptor" />
+            <marker date="1508972455991" expanded="true" signature="2401:2453" ph="SELECT * FRO... rubric_descriptor" />
+            <marker date="1508972455991" expanded="true" signature="2401:2457" ph="SELECT * FRO... rubric_descriptor" />
+            <marker date="1508972455991" expanded="true" signature="2401:2459" ph="SELECT * FRO... rubric_descriptor" />
+            <marker date="1508972455991" expanded="true" signature="2401:2463" ph="SELECT * FRO... rubric_descriptor" />
+            <marker date="1508972455991" expanded="true" signature="2401:2485" ph="SELECT * FRO... rubric_descriptor" />
+            <marker date="1508972455991" expanded="true" signature="2401:2511" ph="SELECT * FRO... rubric_descriptor" />
+            <marker date="1508972455991" expanded="true" signature="2401:2512" ph="SELECT * FRO... rubric_descriptor" />
+            <marker date="1508972455991" expanded="true" signature="2401:2537" ph="SELECT * FRO... rubric_descriptor" />
+            <marker date="1508972455991" expanded="true" signature="2579:2595" ph="..." />
           </folding>
         </state>
       </provider>
@@ -663,7 +646,7 @@
         <state relative-caret-position="697">
           <caret line="46" column="13" lean-forward="false" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
           <folding>
-            <element signature="e#6#92#0#PHP" expanded="true" />
+            <element signature="e#6#92#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -735,25 +718,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/judge.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="37" column="57" lean-forward="true" selection-start-line="37" selection-start-column="57" selection-end-line="37" selection-end-column="57" />
-          <folding>
-            <marker date="1508971014066" expanded="true" signature="1909:1960" ph="SELECT * FRO... rubric_descriptor" />
-            <marker date="1508971014066" expanded="true" signature="1909:1961" ph="SELECT * FRO... rubric_descriptor" />
-            <marker date="1508971014066" expanded="true" signature="1909:1965" ph="SELECT * FRO... rubric_descriptor" />
-            <marker date="1508971014066" expanded="true" signature="1909:1967" ph="SELECT * FRO... rubric_descriptor" />
-            <marker date="1508971014066" expanded="true" signature="1909:1971" ph="SELECT * FRO... rubric_descriptor" />
-            <marker date="1508971014066" expanded="true" signature="1909:1993" ph="SELECT * FRO... rubric_descriptor" />
-            <marker date="1508971014066" expanded="true" signature="1909:2019" ph="SELECT * FRO... rubric_descriptor" />
-            <marker date="1508971014066" expanded="true" signature="1909:2020" ph="SELECT * FRO... rubric_descriptor" />
-            <marker date="1508971014066" expanded="true" signature="1909:2045" ph="SELECT * FRO... rubric_descriptor" />
-            <marker date="1508971014066" expanded="true" signature="2087:2103" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/libs/functions.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -765,7 +729,7 @@
     <entry file="file://$PROJECT_DIR$/libs/common_functions.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding>
             <marker date="1507584325000" expanded="true" signature="746:854" ph="..." />
             <marker date="1507584325000" expanded="true" signature="936:1044" ph="..." />
@@ -773,6 +737,73 @@
             <marker date="1507584325000" expanded="true" signature="2906:2958" ph="SELECT * FRO... users" />
             <marker date="1507584325000" expanded="true" signature="3256:3295" ph="SELECT * FRO... settings" />
             <marker date="1507584325000" expanded="true" signature="3418:3438" ph="SELECT id FR... pages" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/js/login_modal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-689">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/js/bug_submit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/js/calendar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-74505">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <marker date="1507584325000" expanded="true" signature="7430:7447" ph="..." />
+            <marker date="1507584325000" expanded="true" signature="10011:10028" ph="..." />
+            <marker date="1507584325000" expanded="true" signature="21011:21021" ph="..." />
+            <marker date="1507584325000" expanded="true" signature="67911:67951" ph="..." />
+            <marker date="1507584325000" expanded="true" signature="69409:69419" ph="..." />
+            <marker date="1507584325000" expanded="true" signature="72653:72670" ph="..." />
+            <marker date="1507584325000" expanded="true" signature="87797:87842" ph="..." />
+            <marker date="1507584325000" expanded="true" signature="88027:88067" ph="..." />
+            <marker date="1507584325000" expanded="true" signature="88175:88185" ph="..." />
+            <marker date="1507584325000" expanded="true" signature="88453:88470" ph="..." />
+            <marker date="1507584325000" expanded="true" signature="89212:89274" ph="..." />
+            <marker date="1507584325000" expanded="true" signature="89382:89426" ph="..." />
+            <marker date="1507584325000" expanded="true" signature="89571:89611" ph="..." />
+            <marker date="1507584325000" expanded="true" signature="89735:89745" ph="..." />
+            <marker date="1507584325000" expanded="true" signature="90420:90437" ph="..." />
+            <marker date="1507584325000" expanded="true" signature="91929:91939" ph="..." />
+            <marker date="1507584325000" expanded="true" signature="95029:95046" ph="..." />
+            <marker date="1507584325000" expanded="true" signature="201700:201727" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/judge.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="61" column="46" lean-forward="false" selection-start-line="61" selection-start-column="46" selection-end-line="61" selection-end-column="46" />
+          <folding>
+            <marker date="1508972455991" expanded="true" signature="1314:1364" ph="SELECT DISTI... rubric_descriptor" />
+            <marker date="1508972455991" expanded="true" signature="1788:1825" ph="SELECT DISTI... team" />
+            <marker date="1508972455991" expanded="true" signature="2401:2452" ph="SELECT * FRO... rubric_descriptor" />
+            <marker date="1508972455991" expanded="true" signature="2401:2453" ph="SELECT * FRO... rubric_descriptor" />
+            <marker date="1508972455991" expanded="true" signature="2401:2457" ph="SELECT * FRO... rubric_descriptor" />
+            <marker date="1508972455991" expanded="true" signature="2401:2459" ph="SELECT * FRO... rubric_descriptor" />
+            <marker date="1508972455991" expanded="true" signature="2401:2463" ph="SELECT * FRO... rubric_descriptor" />
+            <marker date="1508972455991" expanded="true" signature="2401:2485" ph="SELECT * FRO... rubric_descriptor" />
+            <marker date="1508972455991" expanded="true" signature="2401:2511" ph="SELECT * FRO... rubric_descriptor" />
+            <marker date="1508972455991" expanded="true" signature="2401:2512" ph="SELECT * FRO... rubric_descriptor" />
+            <marker date="1508972455991" expanded="true" signature="2401:2537" ph="SELECT * FRO... rubric_descriptor" />
+            <marker date="1508972455991" expanded="true" signature="2579:2595" ph="..." />
           </folding>
         </state>
       </provider>
