@@ -20,10 +20,10 @@ include('libs/login.php');
 
 include(D_TEMPLATE . '/header.php');
 
-//$score_sheet_type = $_GET['type'];
-//$team_num = $_GET['num'];
-$score_sheet_type = $_POST['Score_Sheet'];
-$team_num = $_POST['Team_number'];
+$score_sheet_type = $_GET['type'];
+$team_num = $_GET['num'];
+//$score_sheet_type = $_POST['Score_Sheet'];
+//$team_num = $_POST['Team_number'];
 ?>
 
 <div id="banner" class="baseHeader">
@@ -33,18 +33,26 @@ $team_num = $_POST['Team_number'];
 </div>
 
 <div id="score_sheet_select" class="dropdown-header">
-    <form class="form-control" method="post" action="judge.php?type=Notebook">
-        <select name="Score_Sheet" value="Select" size="1">
+    <script type="text/javascript">
+        function changeURL(){
+            var type = document.getElementById('type').value;
+            var teamNum = document.getElementById('teamNum').value;
+
+           document.getElementById('typeAndTeamNumForm').action = "judge.php?type=" + type + "&teamNum=" + teamNum;
+        }
+    </script>
+    <form class="form-control" method="post" action="judge.php" id="typeAndTeamNumForm">
+        <select name="Score_Sheet" size="1" id="type">
             <option>Null</option>
             <option value="Notebook">Notebook</option>
             <option value="Marketing">Marketing</option>
         </select>
-        <select name="Team_number" value="Select" size="1">
+        <select name="Team_number" size="1" id="teamNum">
             <option>Null</option>
             <option value="118">118</option>
             <option value="119">119</option>
         </select>
-        <input type="submit">
+        <button type="submit" onclick="changeURL()" class="btn btn-success">submit</button>
     </form>
     <div class="container py-2">
         <h1>You are judging  <?php echo $score_sheet_type; ?> for Team <?php echo $team_num; ?></h1>
@@ -90,7 +98,7 @@ while($r = $q->fetch()){
                     <form class="form-control" method="post" action="judge.php">
                         <input type="text" class="form-control" placeholder="insertOldValueHere">
                         <br/>
-                        <button type="submit" class="btn btn-success">Save</button>
+                        <button type="submit" onclick="" class="btn btn-success">Save</button>
                     </form>
                 </div>
             </div>
