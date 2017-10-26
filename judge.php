@@ -119,9 +119,8 @@ while($r = $q->fetch()){
                         $query2->bindParam(':subSectionType', $sub_section, PDO::PARAM_STR);
                         $query2->bindParam(':teamNum', $team_num, PDO::PARAM_INT);
 
-                        $q2 = $query2->execute();
-                        $r2 = $q2->fetch();
-                        if(empty($r2)) {
+                        $query2->execute();
+                        if($r2 = $query2->fetch()) {
                             ?>
                             <input type="text" class="form-control" placeholder="<?php $r2['point_value']; ?>">
                             <?php
