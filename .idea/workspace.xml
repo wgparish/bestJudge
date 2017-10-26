@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f29fd3a-27cc-44f1-9fff-6e6af8fa498c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/judge.php" afterPath="$PROJECT_DIR$/judge.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,34 +37,34 @@
       <file leaf-file-name="judge.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/judge.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="365">
-              <caret line="116" column="25" lean-forward="true" selection-start-line="116" selection-start-column="25" selection-end-line="116" selection-end-column="25" />
+            <state relative-caret-position="637">
+              <caret line="129" column="70" lean-forward="true" selection-start-line="129" selection-start-column="70" selection-end-line="129" selection-end-column="70" />
               <folding>
-                <marker date="1509054469451" expanded="true" signature="1314:1364" ph="SELECT DISTI... rubric_descriptor" />
-                <marker date="1509054469451" expanded="true" signature="1788:1851" ph="SELECT DISTI... team" />
-                <marker date="1509054469451" expanded="true" signature="2427:2478" ph="SELECT * FRO... rubric_descriptor" />
-                <marker date="1509054469451" expanded="true" signature="2427:2479" ph="SELECT * FRO... rubric_descriptor" />
-                <marker date="1509054469451" expanded="true" signature="2427:2483" ph="SELECT * FRO... rubric_descriptor" />
-                <marker date="1509054469451" expanded="true" signature="2427:2485" ph="SELECT * FRO... rubric_descriptor" />
-                <marker date="1509054469451" expanded="true" signature="2427:2489" ph="SELECT * FRO... rubric_descriptor" />
-                <marker date="1509054469451" expanded="true" signature="2427:2511" ph="SELECT * FRO... rubric_descriptor" />
-                <marker date="1509054469451" expanded="true" signature="2427:2537" ph="SELECT * FRO... rubric_descriptor" />
-                <marker date="1509054469451" expanded="true" signature="2427:2538" ph="SELECT * FRO... rubric_descriptor" />
-                <marker date="1509054469451" expanded="true" signature="2427:2563" ph="SELECT * FRO... rubric_descriptor" />
-                <marker date="1509054469451" expanded="true" signature="2605:2621" ph="..." />
-                <marker date="1509054469451" expanded="true" signature="4008:4064" ph="SELECT point... score_sheet" />
-                <marker date="1509054469451" expanded="true" signature="4008:4065" ph="SELECT point... score_sheet" />
-                <marker date="1509054469451" expanded="true" signature="4008:4092" ph="SELECT point... score_sheet" />
-                <marker date="1509054469451" expanded="true" signature="4008:4093" ph="SELECT point... score_sheet" />
-                <marker date="1509054469451" expanded="true" signature="4008:4108" ph="SELECT point... score_sheet" />
-                <marker date="1509054469451" expanded="true" signature="4008:4117" ph="SELECT point... score_sheet" />
-                <marker date="1509054469451" expanded="true" signature="4008:4131" ph="SELECT point... score_sheet" />
-                <marker date="1509054469451" expanded="true" signature="4008:4146" ph="SELECT point... score_sheet" />
-                <marker date="1509054469451" expanded="true" signature="4008:4151" ph="SELECT point... score_sheet" />
-                <marker date="1509054469451" expanded="true" signature="4008:4165" ph="SELECT point... score_sheet" />
-                <marker date="1509054469451" expanded="true" signature="4008:4166" ph="SELECT point... score_sheet" />
-                <marker date="1509054469451" expanded="true" signature="4008:4174" ph="SELECT point... score_sheet" />
-                <marker date="1509054469451" expanded="true" signature="4008:4178" ph="SELECT point... score_sheet" />
+                <marker date="1509054680888" expanded="true" signature="1314:1364" ph="SELECT DISTI... rubric_descriptor" />
+                <marker date="1509054680888" expanded="true" signature="1788:1851" ph="SELECT DISTI... team" />
+                <marker date="1509054680888" expanded="true" signature="2427:2478" ph="SELECT * FRO... rubric_descriptor" />
+                <marker date="1509054680888" expanded="true" signature="2427:2479" ph="SELECT * FRO... rubric_descriptor" />
+                <marker date="1509054680888" expanded="true" signature="2427:2483" ph="SELECT * FRO... rubric_descriptor" />
+                <marker date="1509054680888" expanded="true" signature="2427:2485" ph="SELECT * FRO... rubric_descriptor" />
+                <marker date="1509054680888" expanded="true" signature="2427:2489" ph="SELECT * FRO... rubric_descriptor" />
+                <marker date="1509054680888" expanded="true" signature="2427:2511" ph="SELECT * FRO... rubric_descriptor" />
+                <marker date="1509054680888" expanded="true" signature="2427:2537" ph="SELECT * FRO... rubric_descriptor" />
+                <marker date="1509054680888" expanded="true" signature="2427:2538" ph="SELECT * FRO... rubric_descriptor" />
+                <marker date="1509054680888" expanded="true" signature="2427:2563" ph="SELECT * FRO... rubric_descriptor" />
+                <marker date="1509054680888" expanded="true" signature="2605:2621" ph="..." />
+                <marker date="1509054680888" expanded="true" signature="4008:4064" ph="SELECT point... score_sheet" />
+                <marker date="1509054680888" expanded="true" signature="4008:4065" ph="SELECT point... score_sheet" />
+                <marker date="1509054680888" expanded="true" signature="4008:4092" ph="SELECT point... score_sheet" />
+                <marker date="1509054680888" expanded="true" signature="4008:4093" ph="SELECT point... score_sheet" />
+                <marker date="1509054680888" expanded="true" signature="4008:4108" ph="SELECT point... score_sheet" />
+                <marker date="1509054680888" expanded="true" signature="4008:4117" ph="SELECT point... score_sheet" />
+                <marker date="1509054680888" expanded="true" signature="4008:4131" ph="SELECT point... score_sheet" />
+                <marker date="1509054680888" expanded="true" signature="4008:4146" ph="SELECT point... score_sheet" />
+                <marker date="1509054680888" expanded="true" signature="4008:4151" ph="SELECT point... score_sheet" />
+                <marker date="1509054680888" expanded="true" signature="4008:4165" ph="SELECT point... score_sheet" />
+                <marker date="1509054680888" expanded="true" signature="4008:4166" ph="SELECT point... score_sheet" />
+                <marker date="1509054680888" expanded="true" signature="4008:4174" ph="SELECT point... score_sheet" />
+                <marker date="1509054680888" expanded="true" signature="4008:4178" ph="SELECT point... score_sheet" />
               </folding>
             </state>
           </provider>
@@ -308,12 +306,12 @@
       <workItem from="1508707729598" duration="97000" />
       <workItem from="1508809960734" duration="692000" />
       <workItem from="1508946532588" duration="271000" />
-      <workItem from="1508959488249" duration="11363000" />
+      <workItem from="1508959488249" duration="11547000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33863000" />
+    <option name="totallyTimeSpent" value="34047000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1121" y="0" width="1142" height="1481" extended-state="0" />
@@ -434,31 +432,31 @@
         <state relative-caret-position="408">
           <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
           <folding>
-            <marker date="1509054469451" expanded="true" signature="1314:1364" ph="SELECT DISTI... rubric_descriptor" />
-            <marker date="1509054469451" expanded="true" signature="1788:1851" ph="SELECT DISTI... team" />
-            <marker date="1509054469451" expanded="true" signature="2427:2478" ph="SELECT * FRO... rubric_descriptor" />
-            <marker date="1509054469451" expanded="true" signature="2427:2479" ph="SELECT * FRO... rubric_descriptor" />
-            <marker date="1509054469451" expanded="true" signature="2427:2483" ph="SELECT * FRO... rubric_descriptor" />
-            <marker date="1509054469451" expanded="true" signature="2427:2485" ph="SELECT * FRO... rubric_descriptor" />
-            <marker date="1509054469451" expanded="true" signature="2427:2489" ph="SELECT * FRO... rubric_descriptor" />
-            <marker date="1509054469451" expanded="true" signature="2427:2511" ph="SELECT * FRO... rubric_descriptor" />
-            <marker date="1509054469451" expanded="true" signature="2427:2537" ph="SELECT * FRO... rubric_descriptor" />
-            <marker date="1509054469451" expanded="true" signature="2427:2538" ph="SELECT * FRO... rubric_descriptor" />
-            <marker date="1509054469451" expanded="true" signature="2427:2563" ph="SELECT * FRO... rubric_descriptor" />
-            <marker date="1509054469451" expanded="true" signature="2605:2621" ph="..." />
-            <marker date="1509054469451" expanded="true" signature="4008:4064" ph="SELECT point... score_sheet" />
-            <marker date="1509054469451" expanded="true" signature="4008:4065" ph="SELECT point... score_sheet" />
-            <marker date="1509054469451" expanded="true" signature="4008:4092" ph="SELECT point... score_sheet" />
-            <marker date="1509054469451" expanded="true" signature="4008:4093" ph="SELECT point... score_sheet" />
-            <marker date="1509054469451" expanded="true" signature="4008:4108" ph="SELECT point... score_sheet" />
-            <marker date="1509054469451" expanded="true" signature="4008:4117" ph="SELECT point... score_sheet" />
-            <marker date="1509054469451" expanded="true" signature="4008:4131" ph="SELECT point... score_sheet" />
-            <marker date="1509054469451" expanded="true" signature="4008:4146" ph="SELECT point... score_sheet" />
-            <marker date="1509054469451" expanded="true" signature="4008:4151" ph="SELECT point... score_sheet" />
-            <marker date="1509054469451" expanded="true" signature="4008:4165" ph="SELECT point... score_sheet" />
-            <marker date="1509054469451" expanded="true" signature="4008:4166" ph="SELECT point... score_sheet" />
-            <marker date="1509054469451" expanded="true" signature="4008:4174" ph="SELECT point... score_sheet" />
-            <marker date="1509054469451" expanded="true" signature="4008:4178" ph="SELECT point... score_sheet" />
+            <marker date="1509054680888" expanded="true" signature="1314:1364" ph="SELECT DISTI... rubric_descriptor" />
+            <marker date="1509054680888" expanded="true" signature="1788:1851" ph="SELECT DISTI... team" />
+            <marker date="1509054680888" expanded="true" signature="2427:2478" ph="SELECT * FRO... rubric_descriptor" />
+            <marker date="1509054680888" expanded="true" signature="2427:2479" ph="SELECT * FRO... rubric_descriptor" />
+            <marker date="1509054680888" expanded="true" signature="2427:2483" ph="SELECT * FRO... rubric_descriptor" />
+            <marker date="1509054680888" expanded="true" signature="2427:2485" ph="SELECT * FRO... rubric_descriptor" />
+            <marker date="1509054680888" expanded="true" signature="2427:2489" ph="SELECT * FRO... rubric_descriptor" />
+            <marker date="1509054680888" expanded="true" signature="2427:2511" ph="SELECT * FRO... rubric_descriptor" />
+            <marker date="1509054680888" expanded="true" signature="2427:2537" ph="SELECT * FRO... rubric_descriptor" />
+            <marker date="1509054680888" expanded="true" signature="2427:2538" ph="SELECT * FRO... rubric_descriptor" />
+            <marker date="1509054680888" expanded="true" signature="2427:2563" ph="SELECT * FRO... rubric_descriptor" />
+            <marker date="1509054680888" expanded="true" signature="2605:2621" ph="..." />
+            <marker date="1509054680888" expanded="true" signature="4008:4064" ph="SELECT point... score_sheet" />
+            <marker date="1509054680888" expanded="true" signature="4008:4065" ph="SELECT point... score_sheet" />
+            <marker date="1509054680888" expanded="true" signature="4008:4092" ph="SELECT point... score_sheet" />
+            <marker date="1509054680888" expanded="true" signature="4008:4093" ph="SELECT point... score_sheet" />
+            <marker date="1509054680888" expanded="true" signature="4008:4108" ph="SELECT point... score_sheet" />
+            <marker date="1509054680888" expanded="true" signature="4008:4117" ph="SELECT point... score_sheet" />
+            <marker date="1509054680888" expanded="true" signature="4008:4131" ph="SELECT point... score_sheet" />
+            <marker date="1509054680888" expanded="true" signature="4008:4146" ph="SELECT point... score_sheet" />
+            <marker date="1509054680888" expanded="true" signature="4008:4151" ph="SELECT point... score_sheet" />
+            <marker date="1509054680888" expanded="true" signature="4008:4165" ph="SELECT point... score_sheet" />
+            <marker date="1509054680888" expanded="true" signature="4008:4166" ph="SELECT point... score_sheet" />
+            <marker date="1509054680888" expanded="true" signature="4008:4174" ph="SELECT point... score_sheet" />
+            <marker date="1509054680888" expanded="true" signature="4008:4178" ph="SELECT point... score_sheet" />
           </folding>
         </state>
       </provider>
@@ -818,34 +816,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/judge.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="116" column="25" lean-forward="true" selection-start-line="116" selection-start-column="25" selection-end-line="116" selection-end-column="25" />
+        <state relative-caret-position="637">
+          <caret line="129" column="70" lean-forward="true" selection-start-line="129" selection-start-column="70" selection-end-line="129" selection-end-column="70" />
           <folding>
-            <marker date="1509054469451" expanded="true" signature="1314:1364" ph="SELECT DISTI... rubric_descriptor" />
-            <marker date="1509054469451" expanded="true" signature="1788:1851" ph="SELECT DISTI... team" />
-            <marker date="1509054469451" expanded="true" signature="2427:2478" ph="SELECT * FRO... rubric_descriptor" />
-            <marker date="1509054469451" expanded="true" signature="2427:2479" ph="SELECT * FRO... rubric_descriptor" />
-            <marker date="1509054469451" expanded="true" signature="2427:2483" ph="SELECT * FRO... rubric_descriptor" />
-            <marker date="1509054469451" expanded="true" signature="2427:2485" ph="SELECT * FRO... rubric_descriptor" />
-            <marker date="1509054469451" expanded="true" signature="2427:2489" ph="SELECT * FRO... rubric_descriptor" />
-            <marker date="1509054469451" expanded="true" signature="2427:2511" ph="SELECT * FRO... rubric_descriptor" />
-            <marker date="1509054469451" expanded="true" signature="2427:2537" ph="SELECT * FRO... rubric_descriptor" />
-            <marker date="1509054469451" expanded="true" signature="2427:2538" ph="SELECT * FRO... rubric_descriptor" />
-            <marker date="1509054469451" expanded="true" signature="2427:2563" ph="SELECT * FRO... rubric_descriptor" />
-            <marker date="1509054469451" expanded="true" signature="2605:2621" ph="..." />
-            <marker date="1509054469451" expanded="true" signature="4008:4064" ph="SELECT point... score_sheet" />
-            <marker date="1509054469451" expanded="true" signature="4008:4065" ph="SELECT point... score_sheet" />
-            <marker date="1509054469451" expanded="true" signature="4008:4092" ph="SELECT point... score_sheet" />
-            <marker date="1509054469451" expanded="true" signature="4008:4093" ph="SELECT point... score_sheet" />
-            <marker date="1509054469451" expanded="true" signature="4008:4108" ph="SELECT point... score_sheet" />
-            <marker date="1509054469451" expanded="true" signature="4008:4117" ph="SELECT point... score_sheet" />
-            <marker date="1509054469451" expanded="true" signature="4008:4131" ph="SELECT point... score_sheet" />
-            <marker date="1509054469451" expanded="true" signature="4008:4146" ph="SELECT point... score_sheet" />
-            <marker date="1509054469451" expanded="true" signature="4008:4151" ph="SELECT point... score_sheet" />
-            <marker date="1509054469451" expanded="true" signature="4008:4165" ph="SELECT point... score_sheet" />
-            <marker date="1509054469451" expanded="true" signature="4008:4166" ph="SELECT point... score_sheet" />
-            <marker date="1509054469451" expanded="true" signature="4008:4174" ph="SELECT point... score_sheet" />
-            <marker date="1509054469451" expanded="true" signature="4008:4178" ph="SELECT point... score_sheet" />
+            <marker date="1509054680888" expanded="true" signature="1314:1364" ph="SELECT DISTI... rubric_descriptor" />
+            <marker date="1509054680888" expanded="true" signature="1788:1851" ph="SELECT DISTI... team" />
+            <marker date="1509054680888" expanded="true" signature="2427:2478" ph="SELECT * FRO... rubric_descriptor" />
+            <marker date="1509054680888" expanded="true" signature="2427:2479" ph="SELECT * FRO... rubric_descriptor" />
+            <marker date="1509054680888" expanded="true" signature="2427:2483" ph="SELECT * FRO... rubric_descriptor" />
+            <marker date="1509054680888" expanded="true" signature="2427:2485" ph="SELECT * FRO... rubric_descriptor" />
+            <marker date="1509054680888" expanded="true" signature="2427:2489" ph="SELECT * FRO... rubric_descriptor" />
+            <marker date="1509054680888" expanded="true" signature="2427:2511" ph="SELECT * FRO... rubric_descriptor" />
+            <marker date="1509054680888" expanded="true" signature="2427:2537" ph="SELECT * FRO... rubric_descriptor" />
+            <marker date="1509054680888" expanded="true" signature="2427:2538" ph="SELECT * FRO... rubric_descriptor" />
+            <marker date="1509054680888" expanded="true" signature="2427:2563" ph="SELECT * FRO... rubric_descriptor" />
+            <marker date="1509054680888" expanded="true" signature="2605:2621" ph="..." />
+            <marker date="1509054680888" expanded="true" signature="4008:4064" ph="SELECT point... score_sheet" />
+            <marker date="1509054680888" expanded="true" signature="4008:4065" ph="SELECT point... score_sheet" />
+            <marker date="1509054680888" expanded="true" signature="4008:4092" ph="SELECT point... score_sheet" />
+            <marker date="1509054680888" expanded="true" signature="4008:4093" ph="SELECT point... score_sheet" />
+            <marker date="1509054680888" expanded="true" signature="4008:4108" ph="SELECT point... score_sheet" />
+            <marker date="1509054680888" expanded="true" signature="4008:4117" ph="SELECT point... score_sheet" />
+            <marker date="1509054680888" expanded="true" signature="4008:4131" ph="SELECT point... score_sheet" />
+            <marker date="1509054680888" expanded="true" signature="4008:4146" ph="SELECT point... score_sheet" />
+            <marker date="1509054680888" expanded="true" signature="4008:4151" ph="SELECT point... score_sheet" />
+            <marker date="1509054680888" expanded="true" signature="4008:4165" ph="SELECT point... score_sheet" />
+            <marker date="1509054680888" expanded="true" signature="4008:4166" ph="SELECT point... score_sheet" />
+            <marker date="1509054680888" expanded="true" signature="4008:4174" ph="SELECT point... score_sheet" />
+            <marker date="1509054680888" expanded="true" signature="4008:4178" ph="SELECT point... score_sheet" />
           </folding>
         </state>
       </provider>

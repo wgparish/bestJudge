@@ -114,8 +114,12 @@ while($r = $q->fetch()){
                         <?php
                         $judgeNum = $_SESSION['judge_number'];
                         $query2 = $DB->prepare("SELECT point_value FROM score_sheet WHERE judge_number = :judgeNum AND score_sheet = :scoreSheetType AND sub_section_type = :subSectionType AND team_number = :teamNum");
-                        $
-                        $q2 = $DB->query($query2);
+                        $query2->bindParam(':judgeNum', $judgeNum);
+                        $query2->bindParam(':scoreSheetType', $score_sheet_type);
+                        $query2->bindParam(':subSectionType', $sub_section);
+                        $query2->bindParam(':teamNum', $team_num);
+
+                        $q2 = $query2->execute();
                         $r2 = $q2->fetch();
                         if(empty($r2)) {
                             ?>
