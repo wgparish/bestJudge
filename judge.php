@@ -114,10 +114,10 @@ while($r = $q->fetch()){
                         <?php
                         $judgeNum = $_SESSION['judge_number'];
                         $query2 = $DB->prepare("SELECT point_value FROM score_sheet WHERE judge_number = :judgeNum AND score_sheet = :scoreSheetType AND sub_section_type = :subSectionType AND team_number = :teamNum");
-                        $query2->bindParam(':judgeNum', $judgeNum);
-                        $query2->bindParam(':scoreSheetType', $score_sheet_type);
-                        $query2->bindParam(':subSectionType', $sub_section);
-                        $query2->bindParam(':teamNum', $team_num);
+                        $query2->bindParam(':judgeNum', $judgeNum, PDO::PARAM_INT);
+                        $query2->bindParam(':scoreSheetType', $score_sheet_type, PDO::PARAM_STR);
+                        $query2->bindParam(':subSectionType', $sub_section, PDO::PARAM_STR);
+                        $query2->bindParam(':teamNum', $team_num, PDO::PARAM_INT);
 
                         $q2 = $query2->execute();
                         $r2 = $q2->fetch();
