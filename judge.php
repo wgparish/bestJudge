@@ -111,7 +111,22 @@ while($r = $q->fetch()){
                     <br/>
                     <br/>
                     <form class="form-control" method="post" action="judge.php">
-                        <input type="text" class="form-control" placeholder="insertOldValueHere">
+                        <?php
+                        $judgeNum = $_SESSION['judge_number'];
+                        $query2 = $DB->prepare("SELECT point_value FROM score_sheet WHERE judge_number = :judgeNum AND score_sheet = :scoreSheetType AND sub_section_type = :subSectionType AND team_number = :teamNum");
+                        $
+                        $q2 = $DB->query($query2);
+                        $r2 = $q2->fetch();
+                        if(empty($r2)) {
+                            ?>
+                            <input type="text" class="form-control" placeholder="<?php $r2['point_value']; ?>">
+                            <?php
+                        }else{
+                            ?>
+                            <input type="text" class="form-control" placeholder="Input initial score">
+                            <?php
+                        }
+                        ?>
                         <br/>
                         <button type="submit" onclick="" class="btn btn-success">Save</button>
                     </form>

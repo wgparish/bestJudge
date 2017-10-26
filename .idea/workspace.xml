@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f29fd3a-27cc-44f1-9fff-6e6af8fa498c" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/judge.php" afterPath="$PROJECT_DIR$/judge.php" />
     </list>
@@ -28,28 +29,8 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="38" column="10" lean-forward="false" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="event_page.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/template/event_page.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home_page.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/template/home_page.php">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="38" column="10" lean-forward="false" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -58,22 +39,45 @@
       <file leaf-file-name="judge.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/judge.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="850">
-              <caret line="61" column="85" lean-forward="false" selection-start-line="61" selection-start-column="85" selection-end-line="61" selection-end-column="85" />
+            <state relative-caret-position="365">
+              <caret line="116" column="25" lean-forward="true" selection-start-line="116" selection-start-column="25" selection-end-line="116" selection-end-column="25" />
               <folding>
-                <marker date="1508973835227" expanded="true" signature="1314:1364" ph="SELECT DISTI... rubric_descriptor" />
-                <marker date="1508973835227" expanded="true" signature="1788:1851" ph="SELECT DISTI... team" />
-                <marker date="1508973835227" expanded="true" signature="2427:2478" ph="SELECT * FRO... rubric_descriptor" />
-                <marker date="1508973835227" expanded="true" signature="2427:2479" ph="SELECT * FRO... rubric_descriptor" />
-                <marker date="1508973835227" expanded="true" signature="2427:2483" ph="SELECT * FRO... rubric_descriptor" />
-                <marker date="1508973835227" expanded="true" signature="2427:2485" ph="SELECT * FRO... rubric_descriptor" />
-                <marker date="1508973835227" expanded="true" signature="2427:2489" ph="SELECT * FRO... rubric_descriptor" />
-                <marker date="1508973835227" expanded="true" signature="2427:2511" ph="SELECT * FRO... rubric_descriptor" />
-                <marker date="1508973835227" expanded="true" signature="2427:2537" ph="SELECT * FRO... rubric_descriptor" />
-                <marker date="1508973835227" expanded="true" signature="2427:2538" ph="SELECT * FRO... rubric_descriptor" />
-                <marker date="1508973835227" expanded="true" signature="2427:2563" ph="SELECT * FRO... rubric_descriptor" />
-                <marker date="1508973835227" expanded="true" signature="2605:2621" ph="..." />
+                <marker date="1509054469451" expanded="true" signature="1314:1364" ph="SELECT DISTI... rubric_descriptor" />
+                <marker date="1509054469451" expanded="true" signature="1788:1851" ph="SELECT DISTI... team" />
+                <marker date="1509054469451" expanded="true" signature="2427:2478" ph="SELECT * FRO... rubric_descriptor" />
+                <marker date="1509054469451" expanded="true" signature="2427:2479" ph="SELECT * FRO... rubric_descriptor" />
+                <marker date="1509054469451" expanded="true" signature="2427:2483" ph="SELECT * FRO... rubric_descriptor" />
+                <marker date="1509054469451" expanded="true" signature="2427:2485" ph="SELECT * FRO... rubric_descriptor" />
+                <marker date="1509054469451" expanded="true" signature="2427:2489" ph="SELECT * FRO... rubric_descriptor" />
+                <marker date="1509054469451" expanded="true" signature="2427:2511" ph="SELECT * FRO... rubric_descriptor" />
+                <marker date="1509054469451" expanded="true" signature="2427:2537" ph="SELECT * FRO... rubric_descriptor" />
+                <marker date="1509054469451" expanded="true" signature="2427:2538" ph="SELECT * FRO... rubric_descriptor" />
+                <marker date="1509054469451" expanded="true" signature="2427:2563" ph="SELECT * FRO... rubric_descriptor" />
+                <marker date="1509054469451" expanded="true" signature="2605:2621" ph="..." />
+                <marker date="1509054469451" expanded="true" signature="4008:4064" ph="SELECT point... score_sheet" />
+                <marker date="1509054469451" expanded="true" signature="4008:4065" ph="SELECT point... score_sheet" />
+                <marker date="1509054469451" expanded="true" signature="4008:4092" ph="SELECT point... score_sheet" />
+                <marker date="1509054469451" expanded="true" signature="4008:4093" ph="SELECT point... score_sheet" />
+                <marker date="1509054469451" expanded="true" signature="4008:4108" ph="SELECT point... score_sheet" />
+                <marker date="1509054469451" expanded="true" signature="4008:4117" ph="SELECT point... score_sheet" />
+                <marker date="1509054469451" expanded="true" signature="4008:4131" ph="SELECT point... score_sheet" />
+                <marker date="1509054469451" expanded="true" signature="4008:4146" ph="SELECT point... score_sheet" />
+                <marker date="1509054469451" expanded="true" signature="4008:4151" ph="SELECT point... score_sheet" />
+                <marker date="1509054469451" expanded="true" signature="4008:4165" ph="SELECT point... score_sheet" />
+                <marker date="1509054469451" expanded="true" signature="4008:4166" ph="SELECT point... score_sheet" />
+                <marker date="1509054469451" expanded="true" signature="4008:4174" ph="SELECT point... score_sheet" />
+                <marker date="1509054469451" expanded="true" signature="4008:4178" ph="SELECT point... score_sheet" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="acm-test.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Init_Setup/acm-test.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1136">
+              <caret line="38" column="1" lean-forward="false" selection-start-line="38" selection-start-column="1" selection-end-line="40" selection-end-column="26" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -91,8 +95,8 @@
       <file leaf-file-name="common_functions.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/libs/common_functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state relative-caret-position="646">
+              <caret line="145" column="0" lean-forward="false" selection-start-line="145" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
               <folding>
                 <marker date="1507584325000" expanded="true" signature="746:854" ph="..." />
                 <marker date="1507584325000" expanded="true" signature="936:1044" ph="..." />
@@ -232,6 +236,16 @@
               <item name="bestJudge" type="b2602c69:ProjectViewProjectNode" />
               <item name="bestJudge" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="bestJudge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bestJudge" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Init_Setup" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="bestJudge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bestJudge" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="libs" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -294,23 +308,23 @@
       <workItem from="1508707729598" duration="97000" />
       <workItem from="1508809960734" duration="692000" />
       <workItem from="1508946532588" duration="271000" />
-      <workItem from="1508959488249" duration="6063000" />
+      <workItem from="1508959488249" duration="11363000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28563000" />
+    <option name="totallyTimeSpent" value="33863000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1121" y="0" width="1142" height="1481" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3516874" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35120147" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33262712" sideWeight="0.15240084" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32845744" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.330855" sideWeight="0.84759915" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3277087" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3252924" sideWeight="0.84759915" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -357,14 +371,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="38" column="10" lean-forward="false" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/maintenance.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -428,18 +434,31 @@
         <state relative-caret-position="408">
           <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
           <folding>
-            <marker date="1508973835227" expanded="true" signature="1314:1364" ph="SELECT DISTI... rubric_descriptor" />
-            <marker date="1508973835227" expanded="true" signature="1788:1851" ph="SELECT DISTI... team" />
-            <marker date="1508973835227" expanded="true" signature="2427:2478" ph="SELECT * FRO... rubric_descriptor" />
-            <marker date="1508973835227" expanded="true" signature="2427:2479" ph="SELECT * FRO... rubric_descriptor" />
-            <marker date="1508973835227" expanded="true" signature="2427:2483" ph="SELECT * FRO... rubric_descriptor" />
-            <marker date="1508973835227" expanded="true" signature="2427:2485" ph="SELECT * FRO... rubric_descriptor" />
-            <marker date="1508973835227" expanded="true" signature="2427:2489" ph="SELECT * FRO... rubric_descriptor" />
-            <marker date="1508973835227" expanded="true" signature="2427:2511" ph="SELECT * FRO... rubric_descriptor" />
-            <marker date="1508973835227" expanded="true" signature="2427:2537" ph="SELECT * FRO... rubric_descriptor" />
-            <marker date="1508973835227" expanded="true" signature="2427:2538" ph="SELECT * FRO... rubric_descriptor" />
-            <marker date="1508973835227" expanded="true" signature="2427:2563" ph="SELECT * FRO... rubric_descriptor" />
-            <marker date="1508973835227" expanded="true" signature="2605:2621" ph="..." />
+            <marker date="1509054469451" expanded="true" signature="1314:1364" ph="SELECT DISTI... rubric_descriptor" />
+            <marker date="1509054469451" expanded="true" signature="1788:1851" ph="SELECT DISTI... team" />
+            <marker date="1509054469451" expanded="true" signature="2427:2478" ph="SELECT * FRO... rubric_descriptor" />
+            <marker date="1509054469451" expanded="true" signature="2427:2479" ph="SELECT * FRO... rubric_descriptor" />
+            <marker date="1509054469451" expanded="true" signature="2427:2483" ph="SELECT * FRO... rubric_descriptor" />
+            <marker date="1509054469451" expanded="true" signature="2427:2485" ph="SELECT * FRO... rubric_descriptor" />
+            <marker date="1509054469451" expanded="true" signature="2427:2489" ph="SELECT * FRO... rubric_descriptor" />
+            <marker date="1509054469451" expanded="true" signature="2427:2511" ph="SELECT * FRO... rubric_descriptor" />
+            <marker date="1509054469451" expanded="true" signature="2427:2537" ph="SELECT * FRO... rubric_descriptor" />
+            <marker date="1509054469451" expanded="true" signature="2427:2538" ph="SELECT * FRO... rubric_descriptor" />
+            <marker date="1509054469451" expanded="true" signature="2427:2563" ph="SELECT * FRO... rubric_descriptor" />
+            <marker date="1509054469451" expanded="true" signature="2605:2621" ph="..." />
+            <marker date="1509054469451" expanded="true" signature="4008:4064" ph="SELECT point... score_sheet" />
+            <marker date="1509054469451" expanded="true" signature="4008:4065" ph="SELECT point... score_sheet" />
+            <marker date="1509054469451" expanded="true" signature="4008:4092" ph="SELECT point... score_sheet" />
+            <marker date="1509054469451" expanded="true" signature="4008:4093" ph="SELECT point... score_sheet" />
+            <marker date="1509054469451" expanded="true" signature="4008:4108" ph="SELECT point... score_sheet" />
+            <marker date="1509054469451" expanded="true" signature="4008:4117" ph="SELECT point... score_sheet" />
+            <marker date="1509054469451" expanded="true" signature="4008:4131" ph="SELECT point... score_sheet" />
+            <marker date="1509054469451" expanded="true" signature="4008:4146" ph="SELECT point... score_sheet" />
+            <marker date="1509054469451" expanded="true" signature="4008:4151" ph="SELECT point... score_sheet" />
+            <marker date="1509054469451" expanded="true" signature="4008:4165" ph="SELECT point... score_sheet" />
+            <marker date="1509054469451" expanded="true" signature="4008:4166" ph="SELECT point... score_sheet" />
+            <marker date="1509054469451" expanded="true" signature="4008:4174" ph="SELECT point... score_sheet" />
+            <marker date="1509054469451" expanded="true" signature="4008:4178" ph="SELECT point... score_sheet" />
           </folding>
         </state>
       </provider>
@@ -568,13 +587,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Init_Setup/acm-test.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="119" column="97" lean-forward="true" selection-start-line="119" selection-start-column="37" selection-end-line="119" selection-end-column="97" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dashboard/pages/manage_pages.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -686,7 +698,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
+        <state relative-caret-position="0">
           <caret line="38" column="10" lean-forward="false" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="10" />
           <folding />
         </state>
@@ -716,29 +728,6 @@
         <state relative-caret-position="2074">
           <caret line="122" column="33" lean-forward="false" selection-start-line="122" selection-start-column="33" selection-end-line="122" selection-end-column="33" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libs/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libs/common_functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding>
-            <marker date="1507584325000" expanded="true" signature="746:854" ph="..." />
-            <marker date="1507584325000" expanded="true" signature="936:1044" ph="..." />
-            <marker date="1507584325000" expanded="true" signature="1925:1956" ph="SELECT * FRO... pages" />
-            <marker date="1507584325000" expanded="true" signature="2906:2958" ph="SELECT * FRO... users" />
-            <marker date="1507584325000" expanded="true" signature="3256:3295" ph="SELECT * FRO... settings" />
-            <marker date="1507584325000" expanded="true" signature="3418:3438" ph="SELECT id FR... pages" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -788,23 +777,75 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Init_Setup/acm-test.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1136">
+          <caret line="38" column="1" lean-forward="false" selection-start-line="38" selection-start-column="1" selection-end-line="40" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/common_functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="145" column="0" lean-forward="false" selection-start-line="145" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
+          <folding>
+            <marker date="1507584325000" expanded="true" signature="746:854" ph="..." />
+            <marker date="1507584325000" expanded="true" signature="936:1044" ph="..." />
+            <marker date="1507584325000" expanded="true" signature="1925:1956" ph="SELECT * FRO... pages" />
+            <marker date="1507584325000" expanded="true" signature="2906:2958" ph="SELECT * FRO... users" />
+            <marker date="1507584325000" expanded="true" signature="3256:3295" ph="SELECT * FRO... settings" />
+            <marker date="1507584325000" expanded="true" signature="3418:3438" ph="SELECT id FR... pages" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/bfed6ee3-3949-4aa4-a9f3-f72afa3bc673/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/judge.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="61" column="85" lean-forward="false" selection-start-line="61" selection-start-column="85" selection-end-line="61" selection-end-column="85" />
+        <state relative-caret-position="365">
+          <caret line="116" column="25" lean-forward="true" selection-start-line="116" selection-start-column="25" selection-end-line="116" selection-end-column="25" />
           <folding>
-            <marker date="1508973835227" expanded="true" signature="1314:1364" ph="SELECT DISTI... rubric_descriptor" />
-            <marker date="1508973835227" expanded="true" signature="1788:1851" ph="SELECT DISTI... team" />
-            <marker date="1508973835227" expanded="true" signature="2427:2478" ph="SELECT * FRO... rubric_descriptor" />
-            <marker date="1508973835227" expanded="true" signature="2427:2479" ph="SELECT * FRO... rubric_descriptor" />
-            <marker date="1508973835227" expanded="true" signature="2427:2483" ph="SELECT * FRO... rubric_descriptor" />
-            <marker date="1508973835227" expanded="true" signature="2427:2485" ph="SELECT * FRO... rubric_descriptor" />
-            <marker date="1508973835227" expanded="true" signature="2427:2489" ph="SELECT * FRO... rubric_descriptor" />
-            <marker date="1508973835227" expanded="true" signature="2427:2511" ph="SELECT * FRO... rubric_descriptor" />
-            <marker date="1508973835227" expanded="true" signature="2427:2537" ph="SELECT * FRO... rubric_descriptor" />
-            <marker date="1508973835227" expanded="true" signature="2427:2538" ph="SELECT * FRO... rubric_descriptor" />
-            <marker date="1508973835227" expanded="true" signature="2427:2563" ph="SELECT * FRO... rubric_descriptor" />
-            <marker date="1508973835227" expanded="true" signature="2605:2621" ph="..." />
+            <marker date="1509054469451" expanded="true" signature="1314:1364" ph="SELECT DISTI... rubric_descriptor" />
+            <marker date="1509054469451" expanded="true" signature="1788:1851" ph="SELECT DISTI... team" />
+            <marker date="1509054469451" expanded="true" signature="2427:2478" ph="SELECT * FRO... rubric_descriptor" />
+            <marker date="1509054469451" expanded="true" signature="2427:2479" ph="SELECT * FRO... rubric_descriptor" />
+            <marker date="1509054469451" expanded="true" signature="2427:2483" ph="SELECT * FRO... rubric_descriptor" />
+            <marker date="1509054469451" expanded="true" signature="2427:2485" ph="SELECT * FRO... rubric_descriptor" />
+            <marker date="1509054469451" expanded="true" signature="2427:2489" ph="SELECT * FRO... rubric_descriptor" />
+            <marker date="1509054469451" expanded="true" signature="2427:2511" ph="SELECT * FRO... rubric_descriptor" />
+            <marker date="1509054469451" expanded="true" signature="2427:2537" ph="SELECT * FRO... rubric_descriptor" />
+            <marker date="1509054469451" expanded="true" signature="2427:2538" ph="SELECT * FRO... rubric_descriptor" />
+            <marker date="1509054469451" expanded="true" signature="2427:2563" ph="SELECT * FRO... rubric_descriptor" />
+            <marker date="1509054469451" expanded="true" signature="2605:2621" ph="..." />
+            <marker date="1509054469451" expanded="true" signature="4008:4064" ph="SELECT point... score_sheet" />
+            <marker date="1509054469451" expanded="true" signature="4008:4065" ph="SELECT point... score_sheet" />
+            <marker date="1509054469451" expanded="true" signature="4008:4092" ph="SELECT point... score_sheet" />
+            <marker date="1509054469451" expanded="true" signature="4008:4093" ph="SELECT point... score_sheet" />
+            <marker date="1509054469451" expanded="true" signature="4008:4108" ph="SELECT point... score_sheet" />
+            <marker date="1509054469451" expanded="true" signature="4008:4117" ph="SELECT point... score_sheet" />
+            <marker date="1509054469451" expanded="true" signature="4008:4131" ph="SELECT point... score_sheet" />
+            <marker date="1509054469451" expanded="true" signature="4008:4146" ph="SELECT point... score_sheet" />
+            <marker date="1509054469451" expanded="true" signature="4008:4151" ph="SELECT point... score_sheet" />
+            <marker date="1509054469451" expanded="true" signature="4008:4165" ph="SELECT point... score_sheet" />
+            <marker date="1509054469451" expanded="true" signature="4008:4166" ph="SELECT point... score_sheet" />
+            <marker date="1509054469451" expanded="true" signature="4008:4174" ph="SELECT point... score_sheet" />
+            <marker date="1509054469451" expanded="true" signature="4008:4178" ph="SELECT point... score_sheet" />
           </folding>
         </state>
       </provider>
