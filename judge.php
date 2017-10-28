@@ -84,7 +84,6 @@ while($r = $q->fetch()){
     ?>
 <section>
     <div class="container py-3">
-        <div class="card">
             <?php
                 if($sub_section != $r['sub_section_type']){
                     ?>
@@ -108,40 +107,57 @@ while($r = $q->fetch()){
                     </div>
                 </div>
                 <div class="col-md-4 px-3">
-                    <br/>
-                    <br/>
-                    <form class="form-control" method="post" action="judge.php">
-                        <?php
-                        $judgeNum = $_SESSION['judge_number'];
-                        $query2 = $DB->prepare("SELECT point_value FROM score_sheet WHERE judge_number = :judgeNum AND score_sheet = :scoreSheetType AND sub_section_type = :subSectionType AND team_number = :teamNum");
-                        $query2->bindParam(':judgeNum', $judgeNum, PDO::PARAM_INT);
-                        $query2->bindParam(':scoreSheetType', $score_sheet_type, PDO::PARAM_STR);
-                        $query2->bindParam(':subSectionType', $sub_section, PDO::PARAM_STR);
-                        $query2->bindParam(':teamNum', $team_num, PDO::PARAM_INT);
+                    <div id="form-messages">hello
+                    </div>
+                        <form class="form-control" id="point_submit_form" method="post" action="judgePost.php">
+                            <?php
+                            $judgeNum = $_SESSION['judge_number'];
+                            $query2 = $DB->prepare("SELECT point_value FROM score_sheet WHERE judge_number = :judgeNum AND score_sheet = :scoreSheetType AND sub_section_type = :subSectionType AND team_number = :teamNum");
+                            $query2->bindParam(':judgeNum', $judgeNum, PDO::PARAM_INT);
+                            $query2->bindParam(':scoreSheetType', $score_sheet_type, PDO::PARAM_STR);
+                            $query2->bindParam(':subSectionType', $sub_section, PDO::PARAM_STR);
+                            $query2->bindParam(':teamNum', $team_num, PDO::PARAM_INT);
 
-                        $query2->execute();
-                        if($r2 = $query2->fetch()) {
+                            $query2->execute();
+                            if($r2 = $query2->fetch()) {
+                                ?>
+                                <input type="text" id="point_value" name="point_value" class="form-control" placeholder="<?php $r2['point_value']; ?>" required>
+                                <?php
+                            }else{
+                                ?>
+                                <input type="text" id="point_value" name="point_value" class="form-control" placeholder="Input initial score" required>
+                                <?php
+                            }
                             ?>
-                            <input type="text" class="form-control" placeholder="<?php $r2['point_value']; ?>">
-                            <?php
-                        }else{
-                            ?>
-                            <input type="text" class="form-control" placeholder="Input initial score">
-                            <?php
-                        }
-                        ?>
-                        <br/>
-                        <button type="submit" onclick="" class="btn btn-success">Save</button>
-                    </form>
+                            <input type="submit" id="submitButton" name="submitButton" value="Submit">
+                        </form>
                 </div>
             </div>
         </div>
-    </div>
 </section>
 <?php
 }
 ?>
 
+<script type="text/javascript">
+    $("#point_submit_form").submit(function(event) {
+
+        /* stop form from submitting normally */
+        event.preventDefault();
+
+        /* get the action attribute from the <form action=""> element */
+        var $form = $( this ),
+            url = $form.attr( 'action' );
+
+        /* Send the data using post with element id name and name2*/
+        var posting = $.post( url, { pointVal: $('#point_value').val() } );
+
+        /* Alerts the results */
+        posting.done(function( data ) {
+            alert('success');
+        });
+    });
+</script>
 
 <?php
 include(D_TEMPLATE . '/footer.php');
